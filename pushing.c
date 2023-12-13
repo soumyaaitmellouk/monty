@@ -14,11 +14,10 @@ void _push(stack_t **head, unsigned int ctr)
 	{
 		if (bus.arg[0] == '-')
 			r++;
-		while (bus.arg[r] != '\0')
+		for (; bus.arg[j] != '\0'; j++)
 		{
 			if (bus.arg[r] > 57 || bus.arg[r] < 48)
 				count = 1;
-			r++
 		}
 		if (count == 1)
 		{
