@@ -14,7 +14,7 @@ void _push(stack_t **head, unsigned int ctr)
 	{
 		if (bus.arg[0] == '-')
 			r++;
-		for (; bus.arg[j] != '\0'; j++)
+		for (; bus.arg[r] != '\0'; r++)
 		{
 			if (bus.arg[r] > 57 || bus.arg[r] < 48)
 				count = 1;
