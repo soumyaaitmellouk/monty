@@ -17,6 +17,7 @@ int execution(char *content, stack_t **stack, unsigned int ctr, FILE *file)
 				{"pint", _pint},
 				{"queue", _queue},
 				{"stack", _stack},
+				{"pop", _pop},
 				{NULL, NULL}
 				};
 

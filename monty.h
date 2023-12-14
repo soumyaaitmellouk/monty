@@ -61,5 +61,6 @@ void add_tail(stack_t **head, int n);
 void _queue(stack_t **head, unsigned int counter);
 void _stack(stack_t **head, unsigned int counter);
 void _free(stack_t *head);
+void _pop(stack_t **head, unsigned int ctr);
 #endif
 
